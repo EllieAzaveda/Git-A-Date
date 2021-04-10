@@ -30,7 +30,7 @@
 
   .user-icon {
     height: 60%;
-    width: 50%;
+    width: 55%;
     border: 1px solid white;
     border-radius: 50%;
     margin-left: 3em;
@@ -61,7 +61,21 @@
   /* ******USER CARD DETAILS****** */
 
   .user-card {
-    border:
+    border: 3px solid black;
+  }
+
+  .show-profile-btn {
+    border-radius: 50%;
+  }
+
+  .show-profile-image {
+    height: 3em;
+    width: 3em;
+    padding: 2em;
+  }
+
+  .card-header-1 {
+    background-image: url("./assets/person1.jpeg");
   }
 }
 
