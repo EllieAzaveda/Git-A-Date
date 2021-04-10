@@ -3,24 +3,48 @@
   <head>
     <title>Git-A-Date</title>
     <style>@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');</style>
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
-    <header>
-      <img class="user-icon" src="./assets/Avatar.png" alt="person avatar in circle"/>
-      <h6>Admin Username</h6>
-      <button class="triangle-dropdown"></button>
+    <header class="site-header">
+      <nav class="nav-bar" role="navigation">
+        <!-- Marketplace -->
+        <button class="nav-btn"></button>
+        <!-- Date Requests -->
+        <button class="nav-btn"></button>
+        <!-- Match Stack -->
+        <button class="nav-btn"></button>
+      </nav>
+      <span class="login-logo-container">
+        <img class="user-icon" src="./assets/Avatar.png" alt="person avatar in circle"/>
+        <h6 class="login-name">Admin Username</h6>
+        <!-- <button class="triangle-dropdown"></button> -->
+        <details></details>
+      </span>
+        <img class="logo-image" src="./assets/Logo.png" alt="logo of two octocats in love"/>
     </header>
-    <nav role="navigation">
-      <button>Marketplace</button>
-      <button>Date Requests</button>
-      <button>Match Stack</button>
-    </nav>
-    <div class="logo">
-      <img class="logo-image" src="./assets/Logo.png" alt="logo of two octocats in love"/>
-    </div>
-    <h1>Shares</h1>
     <section>
+      <h1>Shares</h1>
+      <article class="usercards-grid">
+        <div class="user-card">
+          <header class="card-header">
+            <button class="show-profile-btn"></button>
+            <h6>VIEWS</h6>
+            <h2>01</h2>
+            <img class="user-image" src="./assets/person1.jpeg"/>
+          </header>
+          <h4>User's Namehere</h4>
+          <time>Monday 4/16/2021 2:29pm</time>
+          <div class="url-container">
+            <p>https://github.com/FakePersonNumOne</p>
+          </div>
+          <h6>FAV LANGUAGE</h6>
+          <h4>Javascript</h4>
+          <h6>TOTAL REPOS</h6>
+          <h2>67</h2>
+        </div>
+      </article>
     </section>
   </body>
 </html>
