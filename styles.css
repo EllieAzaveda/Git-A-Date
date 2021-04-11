@@ -1,4 +1,5 @@
-html {
+html,
+body {
   width: 100%
 }
 
@@ -9,26 +10,66 @@ html {
 .user-card {
   background-color: #FFFFFF;
   border: 3px solid #C8C8C8;
+  margin: 0;
+}
+
+/* ******USER CARD NAV BAR****** */
+
+.card-nav {
+  height: 38%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 5% 5% 20% 1fr;
+  grid-template-columns: 5% 15% 1fr 15% 5%;
+}
+
+.show-profile-btn {
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  border-width: 0;
+  grid-area: 3 / 2;
+}
+
+.show-profile-image {
+  height: 1em;
+  width: 1em;
+  padding: 0;
+  grid-row: 3 / 2;
+}
+
+.views {
+  color: #FFFFFF;
+  font-size: 1.5vh;
+  margin-top: 1em;
+  grid-column: 4;
+}
+
+.views-num {
+  color: #FFFFFF;
+  font-size: 4.6vh;
+  margin-top: .6em;
+  grid-column: 4;
 }
 
 /* ******USER CARD body****** */
 .card-body {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 1.2vw;
   margin-bottom: .2em;
 }
 
 h5 {
-  font-size: 2em;
+  font-size: .8vw;
 }
 
 .last-login {
-  font: #C8C8C8;
-  font-size: 2em;
-  margin-top: 0;
+  color: #C8C8C8;
+  font-size: 1vw;
+  margin: .1em 0 .8em 0;
 }
 
 .lang-title,
@@ -38,94 +79,56 @@ h5 {
 
 .lang-choice,
 .repo-num {
-  margin-top: 0;
+  margin-top: .2em;
+}
+
+.repo-num {
+  color: #E8289A;
+  font-size: 1.8vw;
 }
 
 .url-container {
   font: #C8C8C8;
-  font-size: 2em;
+  font-size: 1vw;
   background-color: #EFEFEF;
-  margin-left: 1.5em;
+  margin: .5em 0;
   padding: .5em;
-  height: 3em;
-  width: 80%;
+  height: 2em;
+  width: 90%;
 }
 
-/* ******USER CARD NAV BAR****** */
+/* ******PEOPLE IMAGES****** */
 
-.card-nav {
-  height: 40%;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 5% 5% 20% 1fr;
-  grid-template-columns: 5% 15% 1fr 15% 5%;
-}
-
-.show-profile-btn {
-  border-radius: 50%;
-}
-
-.views {
-  font: #FFFFFF;
-  font-size: 2em;
-  margin-top: 1.5em;
-  grid-column: 4;
-  align-items: flex-start;
-}
-
-.views-num {
-  font: #FFFFFF;
-  font-size: 6em;
-  margin-top: .6em;
-  grid-column: 4;
-}
-
-.show-profile-btn {
-  height: 9em;
-  width: 9em;
-  border-width: 0;
-  grid-row: 3;
-  grid-column: 2;
-}
-
-.show-profile-image {
-  height: 3em;
-  width: 3em;
-  padding: 2em;
-  grid-row: 3;
-  grid-column: 2;
-}
-
-.nav1 {
+.person1 {
   background-image: url("./assets/person1.jpeg");
 }
 
-.nav2 {
+.person2 {
   background-image: url("./assets/person2.jpeg");
 }
 
-.nav3 {
+.person3 {
   background-image: url("./assets/person3.jpeg");
 }
 
-.nav4 {
+.person4 {
   background-image: url("./assets/person4.jpeg");
 }
 
-.nav5 {
-  background-image: url("./assets/person5.jpg");
+.person5 {
+  background-image: url("./assets/person5.jpeg");
 }
 
-.nav6 {
-  background-image: url("./assets/person6.jpg");
+.person6 {
+  background-image: url("./assets/person6.jpeg");
 }
 
-.nav7 {
-  background-image: url("./assets/person7.jpg");
+.person7 {
+  background-image: url("./assets/person7.jpeg");
 }
 
-.nav8 {
-  background-image: url("./assets/person8.jpg");
+.person8 {
+  background-image: url("./assets/person8.jpeg");
 }
 
 .hidden {
@@ -197,15 +200,66 @@ h5 {
   }
 
   .user-card {
-    height: 80em;
-    width: 50em;
-    margin: 5em;
-    justify-content: center;
+    height: 80vh;
+    width: 50vw;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
+  /* ******USER CARD AREA****** */
+
+  .usercards-grid {
+    display: grid;
+    grid-template-rows: 5% 1fr 1fr 1fr 10%;
+    grid-template-columns: 2% 1fr 1fr 2%;
+    grid-gap: 2%;
+  }
+
+  .page-title {
+    font-size: 3em;
+    margin: 0;
+    align-self: center;
+    grid-area: 1 / 2;
+  }
+
+  .user-card {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+  }
+
+  .card1 {
+    grid-area: 2 / 2;
+  }
+
+  .card2 {
+    grid-area: 2 / 3;
+  }
+
+  .card3 {
+    grid-area: 3 / 2;
+  }
+
+  .card4 {
+    grid-area: 3 / 3;
+  }
+
+  .card5 {
+    grid-area: 4 / 2;
+  }
+
+  .card6 {
+    grid-area: 4 / 3;
+  }
+
+  .card7 {
+    grid-area: 5 / 2;
+  }
+
+  .card8 {
+    grid-area: 5 / 3;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -216,7 +270,7 @@ h5 {
     background-color: #2B2B2B;
     display: grid;
     grid-template-rows: 20% 20% 40% 20%;
-    grid-template-columns: 5% 12.5% 12.5% 15% 1fr 25% 5%;
+    grid-template-columns: 3% 15% 15% 20% 1fr 20% 3%;
     margin: 0;
   }
 
@@ -229,11 +283,11 @@ h5 {
   }
 
   .user-icon {
-    height: 50%;
-    width: 10%;
+    height: 3vh;
+    width: 2vw;
     border: 1px solid white;
     border-radius: 50%;
-    margin-left: 3em;
+    margin-left: 0;
   }
 
   .login {
@@ -242,8 +296,8 @@ h5 {
     display: inline;
   }
 
-  .adminname {
-    margin-left: 1em;
+  .admin-name {
+    margin-left: .5em;
   }
 
   .dropdown {
@@ -256,7 +310,6 @@ h5 {
     height: 100%;
     width: 100%;
     grid-area: 3 / 6;
-    align-self: center;
   }
 
   /* ******NAV BAR****** */
@@ -264,14 +317,14 @@ h5 {
   .nav-bar {
     display: inline-flex;
     grid-area: 3 / 2 / 3 / 5;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-self: flex-end;
   }
 
   .nav-btn-named {
     font-size: 1.2em;
     display: inline;
-    background-color: transparent;
+    background: transparent;
     border: 0;
     justify-content: center;
   }
@@ -317,23 +370,25 @@ h5 {
   .usercards-grid {
     display: grid;
     grid-template-rows: 10% 1fr 1fr 1fr 10%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 2% 1fr 1fr 1fr 1fr 2%;
+    grid-gap: 2%;
   }
 
   .page-title {
+    font-size: 3em;
+    margin: 0;
     align-self: center;
-    grid-area: 1 / 1;
+    grid-area: 1 / 2;
   }
 
   .user-card {
-    height: 25em;
-    width: 20em;
-    margin: 1em;
-    justify-content: center;
+    height: 95%;
+    width: 100%;
+    margin: 0;
   }
 
   .card1 {
-    grid-area: 2 / 1;
+    grid-area: 2 / 2;
   }
 
   .card2 {
@@ -349,106 +404,18 @@ h5 {
   }
 
   .card5 {
-    grid-area: 3 / 1;
+    grid-area: 3 / 2;
   }
 
   .card6 {
-    grid-area: 3 / 2;
-  }
-
-  .card7 {
     grid-area: 3 / 3;
   }
 
-  .card8 {
+  .card7 {
     grid-area: 3 / 4;
   }
 
-  /* ******USER CARD NAV BAR****** */
-
-  .card-nav {
-    height: 35%;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 5% 5% 20% 1fr;
-    grid-template-columns: 5% 15% 1fr 15% 5%;
-  }
-
-  .show-profile-btn {
-    border-radius: 50%;
-    height: 3em;
-    width: 3em;
-    border-width: 0;
-    grid-area: 3 / 2;
-  }
-
-  .show-profile-image {
-    height: 1em;
-    width: 1em;
-    padding: 0;
-    grid-row: 3 / 2;
-  }
-
-  .views {
-    color: #FFFFFF;
-    font-size: .8em;
-    margin-top: 1em;
-    grid-column: 4;
-  }
-
-  .views-num {
-    color: #FFFFFF;
-    font-size: 2em;
-    margin-top: .6em;
-    grid-column: 4;
-  }
-
-  .nav1 {
-    background-image: url("./assets/person1.jpeg");
-  }
-
-  /* ******USER CARD body****** */
-  .card-body {
-    margin-left: 1em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-    margin-bottom: .2em;
-  }
-
-  h5 {
-    font-size: .8em;
-  }
-
-  .last-login {
-    color: #C8C8C8;
-    font-size: 1em;
-    margin: .1em 0 .8em 0;
-  }
-
-  .lang-title,
-  .total-repos {
-    margin-bottom: 0;
-  }
-
-  .lang-choice,
-  .repo-num {
-    margin-top: .2em;
-  }
-
-  .repo-num {
-    color: #E8289A;
-    font-size: 1.8em;
-  }
-
-  .url-container {
-    font: #C8C8C8;
-    font-size: .8em;
-    background-color: #EFEFEF;
-    margin: .5em 0;
-    padding: .5em;
-    height: 2em;
-    width: 80%;
+  .card8 {
+    grid-area: 3 / 5;
   }
 }
