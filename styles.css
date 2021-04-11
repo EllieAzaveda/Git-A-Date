@@ -18,6 +18,7 @@ body {
 .card-nav {
   height: 38%;
   width: 100%;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-rows: 5% 5% 20% 1fr;
   grid-template-columns: 5% 15% 1fr 15% 5%;
@@ -190,23 +191,54 @@ h5 {
 
   .usercards-grid {
     display: block;
-    grid-template-rows: 10% 1fr;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 5% 1fr 5%;
   }
 
-  .user-card,
   .page-title {
     grid-column: 2;
   }
 
   .user-card {
-    height: 80vh;
-    width: 50vw;
+    height: 40vh;
+    width: 40vw;
+    grid-column: 2;
+  }
+
+  .card1 {
+    grid-row: 3;
+  }
+
+  .card2 {
+    grid-row: 4;
+  }
+
+  .card3 {
+    grid-row: 5;
+  }
+
+  .card4 {
+    grid-row: 6;
+  }
+
+  .card5 {
+    grid-row: 7;
+  }
+
+  .card6 {
+    grid-row: 8;
+  }
+
+  .card7 {
+    grid-row: 9;
+  }
+
+  .card8 {
+    grid-row: 9;
   }
 }
 
 @media screen and (min-width: 768px) {
-
   /* ******USER CARD AREA****** */
 
   .usercards-grid {
@@ -375,7 +407,7 @@ h5 {
   }
 
   .page-title {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
     align-self: center;
     grid-area: 1 / 2;

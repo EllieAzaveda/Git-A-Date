@@ -8,7 +8,17 @@
 * [Technologies](#technologies)
 
 ## Description
-Git-A-Date is a site meant to connect programmers looking to date programmers.
+Git-A-Date is a site influenced by GitHub, created to connect programmers looking to date programmers. "Marketplace" is an area to view all users on the site. "Date Requests" will be a page to view messages from users requesting to meet. "Match Stack" will be a page to view all of the profiles a user has matched with.
+
+### Notable Features
+* Responsively designed to ensure both desktop, tablet, and mobile compatibility
+
+### Learning Goals
+* Advanced HTML and CSS
+* Flexbox and Grid
+* Matching a static comp
+
+The project spec & rubric can be found [here](https://frontend.turing.io/projects/module-1/ideabox-group.html)
 
 #### Original Comp to Match
 ![Original Comp](https://user-images.githubusercontent.com/76409536/114323492-b7b04100-9ae2-11eb-9c12-65f690cde2d8.png)
@@ -21,16 +31,6 @@ Git-A-Date is a site meant to connect programmers looking to date programmers.
 
 #### Final: Mobile View
 ![Mobile View]()
-
-### Notable Features
-* Responsively designed to ensure both desktop, tablet, and mobile compatibility
-
-### Learning Goals
-* Advanced HTML and CSS
-* Flexbox and Grid
-* Matching a static comp
-
-The project spec & rubric can be found [here](https://frontend.turing.io/projects/module-1/ideabox-group.html)
 
 
 ### Project Links
@@ -66,7 +66,7 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
         <td>Styling</td>
     </tr>
     </tr>
-        <td><img src="./assets/readme/html-logo.png" alt="html" width="100" height="auto" /></td>
-        <td><img src="./assets/readme/css-logo.png" alt="css" width="100" height="auto" /></td>
+      ![html-logo](https://user-  images.githubusercontent.com/76409536/114323756-  f2ff3f80-9ae3-11eb-833a-cc02ca4e449c.png)
+      ![css-logo](https://user-images.githubusercontent.com/76409536/114323752-f1ce1280-9ae3-11eb-9a13-e640e37c1ac7.png)
     </tr>
 </table>
