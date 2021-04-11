@@ -57,13 +57,11 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 </table>
 
 ## Technologies
-<table>
-    <tr>
-        <td>Structure</td>
-        <td>Styling</td>
-    </tr>
-    </tr>
-      ![html-logo](https://user-images.githubusercontent.com/76409536/114323756-f2ff3f80-9ae3-11eb-833a-cc02ca4e449c.png)
-      ![css-logo](https://user-images.githubusercontent.com/76409536/114323752-f1ce1280-9ae3-11eb-9a13-e640e37c1ac7.png)
-    </tr>
-</table>
+
+#### Structure
+![html-logo](https://user-images.githubusercontent.com/76409536/114323756-f2ff3f80-9ae3-11eb-833a-cc02ca4e449c.png)
+
+
+#### Styling
+![css-logo](https://user-images.githubusercontent.com/76409536/114323752-f1ce1280-9ae3-11eb-9a13-e640e37c1ac7.png)
+
