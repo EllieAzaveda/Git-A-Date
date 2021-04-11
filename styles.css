@@ -1,4 +1,6 @@
-  /* font: #E8279B; */
+html {
+  width: 100%
+}
 
 .page-title {
   margin: 1em;
@@ -179,5 +181,109 @@ h5 {
 }
 
 @media screen and (min-width: 1024px) {
+
+  .site-header {
+    height: 20em;
+    max-width: 100%;
+    background-color: #2B2B2B;
+    display: grid;
+    grid-template-rows: 20% 20% 40% 20%;
+    grid-template-columns: 5% 15% 15% 15% 1fr 25% 5%;
+    margin: 0;
+  }
+
+  .login-logo-container {
+    grid-area: 1 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .user-icon {
+    height: 50%;
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 3em;
+  }
+
+  .login {
+    color: #E8289A;
+    font-size: 1em;
+    display: inline;
+  }
+
+  .adminname {
+    margin-left: 1em;
+  }
+
+  .dropdown {
+    background-color: transparent;
+    border-width: 0;
+    margin-left: 0;
+  }
+
+  .logo-image {
+    height: 100%;
+    width: 100%;
+    grid-area: 3 / 6;
+    align-self: center;
+  }
+
+  /* ******NAV BAR****** */
+
+  .nav-bar {
+    display: inline-flex;
+    grid-area: 3 / 2 / 3 / 5;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+
+  .nav-btn-named {
+    font-size: 1.2em;
+    display: inline;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .icon1 {
+    color: #EDEDED;
+    font-size: 1.2em;
+  }
+
+  .icon2,
+  .icon3 {
+    color: #E8289A;
+  }
+
+  .nav1 {
+    color: #EDEDED;
+  }
+
+  .nav2 {
+    color: #989898;
+  }
+
+  .nav3 {
+    color: #989898;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  /* ******USER CARD AREA****** */
+
+  .usercards-grid {
+    display: block;
+✯    grid-template-columns: 10% 1fr 10%;
+  }
+
+  .user-card {
+    height: 80em;
+    width: 50em;
+    margin: 5em;
+    justify-content: center;
+  }
 
 }
