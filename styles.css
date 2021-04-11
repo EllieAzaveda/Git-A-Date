@@ -191,7 +191,7 @@ h5 {
 
   .usercards-grid {
     display: block;
-    grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 1fr;
     grid-template-columns: 5% 1fr 5%;
   }
 
@@ -203,38 +203,6 @@ h5 {
     height: 50em;
     width: 40em;
     grid-column: 2;
-  }
-
-  .card1 {
-    grid-row: 3;
-  }
-
-  .card2 {
-    grid-row: 4;
-  }
-
-  .card3 {
-    grid-row: 5;
-  }
-
-  .card4 {
-    grid-row: 6;
-  }
-
-  .card5 {
-    grid-row: 7;
-  }
-
-  .card6 {
-    grid-row: 8;
-  }
-
-  .card7 {
-    grid-row: 9;
-  }
-
-  .card8 {
-    grid-row: 9;
   }
 }
 

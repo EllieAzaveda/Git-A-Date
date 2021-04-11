@@ -30,7 +30,7 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 ![Tablet View](https://user-images.githubusercontent.com/76409536/114324669-9baf9e00-9ae8-11eb-994c-85c8622b9010.jpg)
 
 #### Final: Mobile View
-![Mobile View]()
+![Mobile View](https://user-images.githubusercontent.com/76409536/114324748-052fac80-9ae9-11eb-99e8-d5d75ceb5bee.jpg)
 
 
 ### Project Links
