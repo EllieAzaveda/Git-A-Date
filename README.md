@@ -24,10 +24,10 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 ![Original Comp](https://user-images.githubusercontent.com/76409536/114323492-b7b04100-9ae2-11eb-9c12-65f690cde2d8.png)
 
 #### Final: Desktop View
-![Desktop View]()
+![Desktop View](https://user-images.githubusercontent.com/76409536/114324491-88e89980-9ae7-11eb-99d0-ca275e0f9154.jpg)
 
 #### Final: Tablet View
-![Tablet View]()
+![Tablet View](https://user-images.githubusercontent.com/76409536/114324669-9baf9e00-9ae8-11eb-994c-85c8622b9010.jpg)
 
 #### Final: Mobile View
 ![Mobile View]()

@@ -136,7 +136,7 @@ h5 {
   display: none;
 }
 
-@media screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
 
   .site-header {
     height: 20em;
@@ -200,8 +200,8 @@ h5 {
   }
 
   .user-card {
-    height: 40vh;
-    width: 40vw;
+    height: 50em;
+    width: 40em;
     grid-column: 2;
   }
 
@@ -238,7 +238,7 @@ h5 {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   /* ******USER CARD AREA****** */
 
   .usercards-grid {
@@ -256,7 +256,7 @@ h5 {
   }
 
   .user-card {
-    height: 65vh;
+    height: 35vh;
     width: 100%;
     margin: 0;
   }
@@ -292,9 +292,71 @@ h5 {
   .card8 {
     grid-area: 5 / 3;
   }
+  /* ******USER CARD body****** */
+  .card-body {
+    margin-left: 1em;
+  }
+
+  h2 {
+    font-size: 2.5vw;
+    margin-bottom: .2em;
+  }
+
+  h5 {
+    font-size: 2vw;
+  }
+
+  .last-login {
+    color: #C8C8C8;
+    font-size: 2vw;
+    margin: .1em 0 .8em 0;
+  }
+
+  .lang-title,
+  .total-repos {
+    margin-bottom: 0;
+  }
+
+  .lang-choice,
+  .repo-num {
+    margin-top: .2em;
+  }
+
+  .repo-num {
+    font-size: 3vh;
+  }
+
+  .views-num {
+    color: #E8289A;
+    font-size: 1.5vw;
+  }
+
+  .url-container {
+    font: #C8C8C8;
+    font-size: 2vw;
+    background-color: #EFEFEF;
+    margin: .5em 0;
+    padding: .5em;
+    height: 2em;
+    width: 90%;
+  }
+
+  .views {
+    color: #FFFFFF;
+    font-size: 1.2vh;
+    margin-top: 1em;
+    grid-column: 4;
+  }
+
+  .views-num {
+    color: #FFFFFF;
+    font-size: 3.2vh;
+    margin-top: .6em;
+    grid-column: 4;
+  }
 }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
   .site-header {
     height: 15em;
