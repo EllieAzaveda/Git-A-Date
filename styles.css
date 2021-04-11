@@ -1,0 +1,207 @@
+  /* font: #E8279B; */
+
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 320px) {
+
+  .site-header {
+    height: 20em;
+    width: 100%;
+    background-color: #2B2B2B;
+    display: grid;
+    grid-template-rows: 25% 1fr 25%;
+    grid-template-columns: 5% 25% 1fr 25% 5%;
+    margin: 0;
+  }
+
+  .login-logo-container {
+    grid-row: 2;
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+  }
+
+  .user-icon {
+    height: 60%;
+    width: 55%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 3em;
+  }
+
+  .logo-image {
+    height: 100%;
+    width: 100%;
+    grid-row: 2;
+    grid-column: 3;
+    align-self: center;
+  }
+
+  /* ******NAV BAR****** */
+
+  .nav-bar {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+  }
+
+  .nav-btn {
+    margin: .3em;
+    height: 1em;
+    width: 7em;
+  }
+
+  /* ******USER CARD AREA****** */
+
+  .usercards-grid {
+    display: grid;
+    grid-template-rows: 10% 1fr;
+    grid-template-columns: 10% 1fr 10%;
+  }
+
+  .page-title {
+    grid-column: 2;
+  }
+
+  .user-card {
+    background-color: #FFFFFF;
+    border: 3px solid #C8C8C8;
+    height: 80em;
+    width: 100%;
+    margin-bottom: 10em;
+    grid-column: 2;
+  }
+
+  /* .card1 {
+    grid-column: 2;
+  }
+
+  .card2 {
+    grid-column: 3;
+  }
+
+  .card3 {
+    grid-column: 4;
+  }
+
+  .card4 {
+    grid-column: 5;
+  }
+
+  .card5 {
+    grid-column: 6;
+  }
+
+  .card6 {
+    grid-column: 7;
+  }
+
+  .card7 {
+    grid-column: 8;
+  }
+
+  .card8 {
+    grid-column: 9;
+  } */
+
+  /* ******USER CARD NAV BAR****** */
+
+  .show-profile-btn {
+    border-radius: 50%;
+  }
+
+  .card-nav {
+    height: 40%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5% 5% 20% 1fr;
+    grid-template-columns: 5% 15% 1fr 15% 5%;
+  }
+
+  .views {
+    font: #FFFFFF;
+    font-size: 2em;
+    margin-top: 1.5em;
+    grid-column: 4;
+    align-items: flex-start;
+  }
+
+  .views-num {
+    font: #FFFFFF;
+    font-size: 6em;
+    margin-top: .6em;
+    grid-column: 4;
+  }
+
+  .show-profile-btn {
+    height: 9em;
+    width: 9em;
+    border-width: 0;
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  .show-profile-image {
+    height: 3em;
+    width: 3em;
+    padding: 2em;
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  .nav1 {
+    background-image: url("./assets/person1.jpeg");
+  }
+
+  /* ******USER CARD body****** */
+  .card-body {
+    margin-left: 2em;
+  }
+
+  h2 {
+    font-size: 3em;
+    margin-bottom: .2em;
+  }
+
+  h5 {
+    font-size: 2em;
+  }
+
+  .last-login {
+    font: #C8C8C8;
+    font-size: 2em;
+    margin-top: 0;
+  }
+
+  .lang-title,
+  .total-repos {
+    margin-bottom: 0;
+  }
+
+  .lang-choice,
+  .repo-num {
+    margin-top: 0;
+  }
+
+  .url-container {
+    font: #C8C8C8;
+    font-size: 2em;
+    background-color: #EFEFEF;
+    padding: .5em;
+    height: 3em;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
