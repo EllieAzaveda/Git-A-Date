@@ -100,6 +100,34 @@ h5 {
   background-image: url("./assets/person1.jpeg");
 }
 
+.nav2 {
+  background-image: url("./assets/person2.jpeg");
+}
+
+.nav3 {
+  background-image: url("./assets/person3.jpeg");
+}
+
+.nav4 {
+  background-image: url("./assets/person4.jpeg");
+}
+
+.nav5 {
+  background-image: url("./assets/person5.jpg");
+}
+
+.nav6 {
+  background-image: url("./assets/person6.jpg");
+}
+
+.nav7 {
+  background-image: url("./assets/person7.jpg");
+}
+
+.nav8 {
+  background-image: url("./assets/person8.jpg");
+}
+
 .hidden {
   display: none;
 }
