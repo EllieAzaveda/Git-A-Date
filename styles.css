@@ -1,11 +1,15 @@
   /* font: #E8279B; */
 body {
+  max-width: 100%;
+}
+
+header {
+  height: 20em;
   width: 100%;
+  display: inline-block;
 }
 
 .site-header {
-  height: 20em;
-  width: 100%;
   background-color: #2B2B2B;
   display: grid;
   grid-template-rows: 20% 1fr 20%;
@@ -61,46 +65,9 @@ body {
 .user-card {
   background-color: #FFFFFF;
   border: 3px solid #C8C8C8;
-}
-
-/* ******USER CARD body****** */
-.card-body {
-  margin-left: 2em;
-}
-
-h2 {
-  font-size: 3em;
-  margin-bottom: .2em;
-}
-
-h5 {
-  font-size: 2em;
-}
-
-.last-login {
-  color: #C8C8C8;
-  font-size: 2em;
-  margin-top: 0;
-}
-
-.lang-title,
-.total-repos {
-  margin-bottom: 0;
-}
-
-.lang-choice,
-.repo-num {
-  margin-top: 0;
-}
-
-.url-container {
-  color: #C8C8C8;
-  font-size: 2em;
-  background-color: #EFEFEF;
-  margin-left: 1.5em;
-  padding: .5em;
-  height: 3em;
-  width: 80%;
+  height: 80em;
+  width: 95%;
+  margin: 1em;
 }
 
 /* ******USER CARD NAV BAR****** */
@@ -154,33 +121,64 @@ h5 {
   background-size: cover;
 }
 
+/* ******USER CARD body****** */
+.card-body {
+  margin-left: 2em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: .2em;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+.last-login {
+  color: #C8C8C8;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.lang-title,
+.total-repos {
+  margin-bottom: 0;
+}
+
+.lang-choice,
+.repo-num {
+  margin-top: .2em;
+}
+
+.repo-num {
+  color: #E4228F;
+}
+
+.url-container {
+  color: #848484;
+  font-size: 2em;
+  background-color: #EFEFEF;
+  margin-left: 1.5em;
+  padding: .5em;
+  height: 3em;
+  width: 80%;
+}
+
 .hidden {
   display: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  /* ******USER CARD AREA****** */
 
-  .main-section {
-    width: 100%;
-  }
-
-  .usercards-grid {
-    display: grid;
-    grid-template-rows: 10% 1fr;
-    grid-template-columns: 10% 1fr 10%;
-  }
-
-  .user-card,
-  .page-title {
-    grid-column: 2;
+  .usercards-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .user-card {
-    height: 60%;
-    width: 90%;
     grid-column: 2;
-    justify-content: center;
   }
 }
 
