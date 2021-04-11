@@ -25,6 +25,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #EEEEEE;
 }
 
 /**
@@ -42,7 +43,7 @@ main {
 
 h1 {
   font-size: 4em;
-  margin: 0.67em .5em;
+  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -310,7 +311,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  /* font: inherit; /* 2 */ */
 }
 
 /* Interactive
