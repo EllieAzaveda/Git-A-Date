@@ -18,6 +18,7 @@ body {
 .card-nav {
   height: 38%;
   width: 100%;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-rows: 5% 5% 20% 1fr;
   grid-template-columns: 5% 15% 1fr 15% 5%;
@@ -135,7 +136,7 @@ h5 {
   display: none;
 }
 
-@media screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
 
   .site-header {
     height: 20em;
@@ -191,22 +192,21 @@ h5 {
   .usercards-grid {
     display: block;
     grid-template-rows: 10% 1fr;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-columns: 5% 1fr 5%;
   }
 
-  .user-card,
   .page-title {
     grid-column: 2;
   }
 
   .user-card {
-    height: 80vh;
-    width: 50vw;
+    height: 50em;
+    width: 40em;
+    grid-column: 2;
   }
 }
 
-@media screen and (min-width: 768px) {
-
+@media only screen and (min-width: 768px) {
   /* ******USER CARD AREA****** */
 
   .usercards-grid {
@@ -224,7 +224,7 @@ h5 {
   }
 
   .user-card {
-    height: 65vh;
+    height: 35vh;
     width: 100%;
     margin: 0;
   }
@@ -260,9 +260,71 @@ h5 {
   .card8 {
     grid-area: 5 / 3;
   }
+  /* ******USER CARD body****** */
+  .card-body {
+    margin-left: 1em;
+  }
+
+  h2 {
+    font-size: 2.5vw;
+    margin-bottom: .2em;
+  }
+
+  h5 {
+    font-size: 2vw;
+  }
+
+  .last-login {
+    color: #C8C8C8;
+    font-size: 2vw;
+    margin: .1em 0 .8em 0;
+  }
+
+  .lang-title,
+  .total-repos {
+    margin-bottom: 0;
+  }
+
+  .lang-choice,
+  .repo-num {
+    margin-top: .2em;
+  }
+
+  .repo-num {
+    font-size: 3vh;
+  }
+
+  .views-num {
+    color: #E8289A;
+    font-size: 1.5vw;
+  }
+
+  .url-container {
+    font: #C8C8C8;
+    font-size: 2vw;
+    background-color: #EFEFEF;
+    margin: .5em 0;
+    padding: .5em;
+    height: 2em;
+    width: 90%;
+  }
+
+  .views {
+    color: #FFFFFF;
+    font-size: 1.2vh;
+    margin-top: 1em;
+    grid-column: 4;
+  }
+
+  .views-num {
+    color: #FFFFFF;
+    font-size: 3.2vh;
+    margin-top: .6em;
+    grid-column: 4;
+  }
 }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
   .site-header {
     height: 15em;
@@ -375,7 +437,7 @@ h5 {
   }
 
   .page-title {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
     align-self: center;
     grid-area: 1 / 2;
