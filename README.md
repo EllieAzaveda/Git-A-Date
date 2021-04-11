@@ -26,11 +26,8 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 #### Final: Desktop View
 ![Desktop View](https://user-images.githubusercontent.com/76409536/114324491-88e89980-9ae7-11eb-99d0-ca275e0f9154.jpg)
 
-#### Final: Tablet View
-![Tablet View](https://user-images.githubusercontent.com/76409536/114324669-9baf9e00-9ae8-11eb-994c-85c8622b9010.jpg)
-
-#### Final: Mobile View
-![Mobile View](https://user-images.githubusercontent.com/76409536/114324748-052fac80-9ae9-11eb-99e8-d5d75ceb5bee.jpg)
+#### Final: Mobile/Tablet View
+![Mobile/Tablet View](https://user-images.githubusercontent.com/76409536/114325143-ccdd9d80-9aeb-11eb-8b09-9cf79c9a6f4f.jpg)
 
 
 ### Project Links
