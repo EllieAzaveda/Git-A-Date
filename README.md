@@ -8,31 +8,35 @@
 * [Technologies](#technologies)
 
 ## Description
+Git-A-Date is a site meant to connect programmers looking to date programmers.
 
 #### Original Comp to Match
-<p><img src="./assets/staticCompOriginal.png" alt="Win condition met" height="400px" height="auto" style="border-radius:5px"/><br></p>
+![Original Comp](https://user-images.githubusercontent.com/76409536/114323492-b7b04100-9ae2-11eb-9c12-65f690cde2d8.png)
 
 #### Final: Desktop View
-
+![Desktop View]()
 
 #### Final: Tablet View
-
+![Tablet View]()
 
 #### Final: Mobile View
-
+![Mobile View]()
 
 ### Notable Features
-* Responsively designed to ensure both desktop and mobile compatibility
+* Responsively designed to ensure both desktop, tablet, and mobile compatibility
 
 ### Learning Goals
+* Advanced HTML and CSS
+* Flexbox and Grid
+* Matching a static comp
 
 The project spec & rubric can be found [here](https://frontend.turing.io/projects/module-1/ideabox-group.html)
 
 
 ### Project Links
-* [GitHub Repo]()
+* [GitHub Repo](https://github.com/EllieAzaveda/Git-A-Date)
 
-* [GitHub Page]()
+* [GitHub Page](https://ellieazaveda.github.io/Git-A-Date/)
 
 ## Installation
 1. Clone this repo via `git clone https://github.com/EllieAzaveda/Git-A-Date.git`
@@ -41,11 +45,9 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 
 ## Walkthrough
 
-1.
+1. Once you access the page, you are immediately brought to the main landing page.
 
-2.
-
-3.
+2. Use Dev Tools to view the page responsiveness to screen sizing changes.
 
 ## Authors
 <table>
@@ -60,12 +62,10 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 ## Technologies
 <table>
     <tr>
-        <td>Functionality</td>
         <td>Structure</td>
         <td>Styling</td>
     </tr>
     </tr>
-        <td><img src="./assets/readme/js-icon.png" alt="javascript" width="100" height="auto" /></td>
         <td><img src="./assets/readme/html-logo.png" alt="html" width="100" height="auto" /></td>
         <td><img src="./assets/readme/css-logo.png" alt="css" width="100" height="auto" /></td>
     </tr>
