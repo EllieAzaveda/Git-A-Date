@@ -183,12 +183,12 @@ h5 {
 @media screen and (min-width: 1024px) {
 
   .site-header {
-    height: 20em;
+    height: 15em;
     max-width: 100%;
     background-color: #2B2B2B;
     display: grid;
     grid-template-rows: 20% 20% 40% 20%;
-    grid-template-columns: 5% 15% 15% 15% 1fr 25% 5%;
+    grid-template-columns: 5% 12.5% 12.5% 15% 1fr 25% 5%;
     margin: 0;
   }
 
@@ -202,7 +202,7 @@ h5 {
 
   .user-icon {
     height: 50%;
-    width: 15%;
+    width: 10%;
     border: 1px solid white;
     border-radius: 50%;
     margin-left: 3em;
@@ -245,26 +245,38 @@ h5 {
     display: inline;
     background-color: transparent;
     border: 0;
+    justify-content: center;
   }
 
-  .icon1 {
-    color: #EDEDED;
-    font-size: 1.2em;
+  .icon {
+    display: inline-flex;
+    align-self: baseline;
   }
 
   .icon2,
   .icon3 {
     color: #E8289A;
+    margin-left: .5em;
   }
 
+  .icon3 {
+    font-size: 1.5em;
+  }
+
+  .icon2 {
+    font-size: 1.8em;
+  }
+
+  .icon1 {
+    font-size: 1.3em;
+  }
+
+  .icon1,
   .nav1 {
     color: #EDEDED;
   }
 
-  .nav2 {
-    color: #989898;
-  }
-
+  .nav2,
   .nav3 {
     color: #989898;
   }
@@ -275,15 +287,140 @@ h5 {
   /* ******USER CARD AREA****** */
 
   .usercards-grid {
-    display: block;
-✯    grid-template-columns: 10% 1fr 10%;
+    display: grid;
+    grid-template-rows: 10% 1fr 1fr 1fr 10%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .page-title {
+    align-self: center;
+    grid-area: 1 / 1;
   }
 
   .user-card {
-    height: 80em;
-    width: 50em;
-    margin: 5em;
+    height: 25em;
+    width: 20em;
+    margin: 1em;
     justify-content: center;
   }
 
+  .card1 {
+    grid-area: 2 / 1;
+  }
+
+  .card2 {
+    grid-area: 2 / 3;
+  }
+
+  .card3 {
+    grid-area: 2 / 4;
+  }
+
+  .card4 {
+    grid-area: 2 / 5;
+  }
+
+  .card5 {
+    grid-area: 3 / 1;
+  }
+
+  .card6 {
+    grid-area: 3 / 2;
+  }
+
+  .card7 {
+    grid-area: 3 / 3;
+  }
+
+  .card8 {
+    grid-area: 3 / 4;
+  }
+
+  /* ******USER CARD NAV BAR****** */
+
+  .card-nav {
+    height: 35%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5% 5% 20% 1fr;
+    grid-template-columns: 5% 15% 1fr 15% 5%;
+  }
+
+  .show-profile-btn {
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    border-width: 0;
+    grid-area: 3 / 2;
+  }
+
+  .show-profile-image {
+    height: 1em;
+    width: 1em;
+    padding: 0;
+    grid-row: 3 / 2;
+  }
+
+  .views {
+    color: #FFFFFF;
+    font-size: .8em;
+    margin-top: 1em;
+    grid-column: 4;
+  }
+
+  .views-num {
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-top: .6em;
+    grid-column: 4;
+  }
+
+  .nav1 {
+    background-image: url("./assets/person1.jpeg");
+  }
+
+  /* ******USER CARD body****** */
+  .card-body {
+    margin-left: 1em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: .2em;
+  }
+
+  h5 {
+    font-size: .8em;
+  }
+
+  .last-login {
+    color: #C8C8C8;
+    font-size: 1em;
+    margin: .1em 0 .8em 0;
+  }
+
+  .lang-title,
+  .total-repos {
+    margin-bottom: 0;
+  }
+
+  .lang-choice,
+  .repo-num {
+    margin-top: .2em;
+  }
+
+  .repo-num {
+    color: #E8289A;
+    font-size: 1.8em;
+  }
+
+  .url-container {
+    font: #C8C8C8;
+    font-size: .8em;
+    background-color: #EFEFEF;
+    margin: .5em 0;
+    padding: .5em;
+    height: 2em;
+    width: 80%;
+  }
 }
